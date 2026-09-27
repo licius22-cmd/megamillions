@@ -1,0 +1,4 @@
+# Netlify / Cloudflare redirects
+# Existing static files are served with priority.
+# SPA fallback for dynamic client-side routes:
+/*    /index.html   200
