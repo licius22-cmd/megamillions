@@ -93,7 +93,7 @@ var s=document.createElement('script');s.async=true;s.src='https://cdn.utmify.co
     var a = e.target && e.target.closest && e.target.closest("a[href]");
     if (!a) return;
     var href = a.getAttribute("href") || "";
-    if (!/\\/checkout|whop\\.com\\/checkout|paggins\\.com\\/checkout|\\/go/i.test(href)) return;
+    if (!/\\/checkout|whop\\.com\\/checkout|mundpay\\.com\\/checkout|\\/go/i.test(href)) return;
     var v = packValue();
     try {
       var u = new URL(href, location.origin);
